@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-int main() {v
+int main() {vd
     //Copiar um arquivo com letras minusculas e colar em outro arquivo em letras mai�sculas.
     FILE *f1, *f2;
     f1 = fopen("minusculo.txt", "r");
