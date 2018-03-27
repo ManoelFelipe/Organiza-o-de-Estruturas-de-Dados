@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
 	FILE *f;
 	Endereco e;
 	int cont = 1;
-	long posicao, primeiro, ultimo, meio;
+    long posicao, primeiro, ultimo, meio;
 
 	if(argc != 2) {
         fprintf(stderr,"Erro na chamada do programa.\n");
