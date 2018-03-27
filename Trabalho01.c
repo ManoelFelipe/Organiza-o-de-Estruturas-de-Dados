@@ -12,7 +12,7 @@ struct _Endereco {
 	char cep[8];
 	char lixo[2];
 };
-
+ 
 int main(int argc, char **argv) {
 	FILE *f;
 	Endereco e;
