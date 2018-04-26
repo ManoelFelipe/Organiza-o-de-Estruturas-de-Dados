@@ -12,7 +12,7 @@ struct _Endereco {
 	char cep[8];
 	char lixo[2];
 };
- 
+
 int main(int argc, char **argv) {
 	FILE *f;
 	Endereco e;
@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
 	}
 	f = fopen("cep_ordenado.dat","r");
     if(!f) {
-		fprintf(stderr,"Arquivo não pode ser aberto para leitura\n");
+		fprintf(stderr,"Arquivo nao pode ser aberto para leitura\n");
 		return 1;
 	}
 
@@ -66,8 +66,8 @@ int main(int argc, char **argv) {
     if(strncmp(argv[1],e.cep,8) == 0){
         printf("%.72s\n%.72s\n%.72s\n%.72s\n%.2s\n%.8s\n",e.logradouro,e.bairro,e.cidade,e.uf,e.sigla,e.cep);
     } else {
-			printf("CEP não encontrado");
-		}
+			printf("CEP nao encontrado \n");
+    }
 	printf("Contador: %d \n", cont);
 	fclose(f);
 	return 0;
