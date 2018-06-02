@@ -28,7 +28,7 @@ Registro re;
 
 int terminarCom(char *registro_email, char *str) {
     int cont1 = 0;
-	
+
     printf("Chave %.8s Nome %.8s" "Email %.40s\n", re.chave, re.nome, re.email);
 
     while (registro_email[cont1] != ' ') {
@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
         fseek(entrada, posicao * sizeof(Registro), SEEK_SET);
         fread(&re, sizeof(Registro), 1, entrada);
 
-        if (terminarCom(re.email, "gmail.com")) {
+        if (terminarCom(re.email, str)) {
             fwrite(&re, sizeof(Registro), 1, saida);
         }
         posicao = posicao + 1;
