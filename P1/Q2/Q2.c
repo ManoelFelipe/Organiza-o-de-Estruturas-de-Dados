@@ -29,7 +29,7 @@ Registro re;
 int terminarCom(char *registro_email, char *str) {
     int cont1 = 0;
 
-    printf("Chave %.8s Nome %.8s" "Email %.40s\n", re.chave, re.nome, re.email);
+    printf("Chave %.8s Nome %.8s" "Email %.15s\n", re.chave, re.nome, re.email);
 
     while (registro_email[cont1] != ' ') {
         cont1++;
