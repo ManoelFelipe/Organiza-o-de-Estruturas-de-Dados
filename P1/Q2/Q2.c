@@ -28,16 +28,15 @@ Registro re;
 
 int terminarCom(char *registro_email, char *str) {
     int cont1 = 0;
+	
     printf("Chave %.8s Nome %.8s" "Email %.40s\n", re.chave, re.nome, re.email);
+
     while (registro_email[cont1] != ' ') {
         cont1++;
     }
-    printf("Cont %.2d\n", cont1);
 
     for (int i = 0; i < strlen(str); i++) {
-        printf("Cont %.2d\n", cont1);
-        printf("Cont %.2d\n", strlen(str));
-        printf("Emial %.20s\n", str);
+
         if (registro_email[ i + (cont1 - strlen(str)) ] != str[i]) {
             return 0;
         }
@@ -67,7 +66,7 @@ int main(int argc, char **argv) {
         posicao = posicao + 1;
 
     }
-    
+
     fclose(entrada); fclose(saida);
     return 0;
 }
