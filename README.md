@@ -1,10 +1,10 @@
-# Organização de Estruturas de Dados - 2018-1
+# Organização de Estruturas de Dados - 2018-1  
 
 ## P1 - Questões da Primeira Prova
 ### Questão 1 - no diretório **_/P1/Q1_**
 ### Questão 2 - no diretório **_/P1/Q2_**
 ### Questão 3 - no diretório **_/P1/Q3_**
-#### Compilado usando o compilador GCC, no S.O. Windows 10 64x com o Software Code::Blocks 17.12.
+#### Compilado usando o compilador GCC, no S.O. Windows 10 64x com o Software Code::Blocks 17.12.  
 
 ## Trabalho 01 - Busca CEP
 ### Fazer uma busca binária em um arquivo fixo, cep_ordenado.dat
