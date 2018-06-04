@@ -91,6 +91,6 @@ int main() {
     }
     printf("Foi encontrado: %.2d", cont2);
     printf(" Tuplas.\n");
-    fclose(entrada1);fclose(entrada2); fclose(saida);
+    fclose(entrada1); fclose(entrada2); fclose(saida);
     return 0;
 }
