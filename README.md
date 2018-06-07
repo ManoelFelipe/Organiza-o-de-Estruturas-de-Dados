@@ -1,6 +1,6 @@
 # Organização de Estruturas de Dados
 
-Trabalhos realizado durante o semestre 2018/1.    
+Trabalhos realizado durante o semestre 2018/1.  
 
 - ## Trabalho 01 - Busca CEP
 Fazer uma busca binária em um arquivo fixo, cep_ordenado.dat  
@@ -15,3 +15,4 @@ Questão 3 - no diretório **_/P1/Q3_**
 
 - ## Nota:
 Trabalhos compilados usando o compilador GCC, no S.O. Windows 10 64x com o Software Code::Blocks 17.12.    
+blavla
