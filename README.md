@@ -15,4 +15,3 @@ Questão 3 - no diretório **_/P1/Q3_**
 
 - ## Nota:
 Trabalhos compilados usando o compilador GCC, no S.O. Windows 10 64x com o Software Code::Blocks 17.12.    
-blavla
